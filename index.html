@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="./src/output.css" rel="stylesheet">
+    <title>Tailwind Card</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+    </div>
+    <div
+        class="max-w-md mx-auto bg-white rounded-lg shadow-md shadow-gray-400 overflow-hidden flex justify-center items-center mt-9">
+        <!-- Image Section -->
+        <div class=" w-full max-w-screen-lg px-2 ">
+            <img src="https://i.pinimg.com/564x/c1/a0/c1/c1a0c11abda4a9ed211bae24a260a13f.jpg"
+                alt="Classic Utility Jacket"
+                class="w-full h-auto  object-cover shadow-lg shadow-gray-800 rounded-tl-[10px] rounded-bl-[10px]" />
+        </div>
+
+        <!-- Details Section -->
+        <div class="p-6">
+            <!-- Title and Price -->
+            <div class="flex justify-between items-start">
+                <h2 class="text-md font-semibold text-gray-900">Classic Utility Jacket</h2>
+                <span class="text-md font-bold text-gray-400">$110.00</span>
+            </div>
+
+            <!-- Availability -->
+            <p class="text-sm text-gray-600 mt-1">In stock</p>
+
+            <!-- Size Options -->
+            <div class="flex items-center gap-2 mt-4">
+                <button
+                    class="w-8 h-8 flex justify-center items-center border border-gray-300 rounded text-sm bg-gray-800 text-white hover:bg-gray-100">XS</button>
+                <button
+                    class="w-8 h-8 flex justify-center items-center border border-gray-200 rounded text-sm hover:bg-gray-100">S</button>
+                <button
+                    class="w-8 h-8 flex justify-center items-center border border-gray-200 rounded text-sm hover:bg-gray-100">M</button>
+                <button
+                    class="w-8 h-8 flex justify-center items-center border border-gray-200 rounded text-sm hover:bg-gray-100">L</button>
+                <button
+                    class="w-8 h-8 flex justify-center items-center border border-gray-200 rounded text-sm hover:bg-gray-100">XL</button>
+            </div>
+
+            <!-- Buttons -->
+            <div class="flex items-center gap-4 mt-6">
+                <button
+                    class="w-full min-w-[90px] bg-blue-600 text-white text-sm font-semibold py-2 px-2 rounded-md bg-gray-800 text-white-200  hover:bg-blue-700">
+                    Buy now
+                </button>
+                <button
+                    class="w-full min-w-[90px] border border-gray-300 text-sm text-gray-500  font-medium py-2 px-2 rounded-md hover:bg-gray-100">
+                    Add to bag
+                </button>
+                <button
+                    class="p-2 border border-gray-300 rounded text-gray-300 hover:bg-gray-100 text-gray-600 text-sm">
+
+                    <i class="fa fa-heart"></i>
+                </button>
+            </div>
+
+            <!-- Footer -->
+            <p class="text-xs text-gray-500 mt-4">
+                Free shipping on all continental US orders.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
